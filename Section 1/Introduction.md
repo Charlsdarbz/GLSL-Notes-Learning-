@@ -25,5 +25,16 @@ There are 2 stages that go into the process of rendering a triangle.
 Step one is to Position the Vertices
 Step Two is to then Paint the Pixels
 
-# 
+A GLSL Shader Comes in two parts that echo the process
+theres a **Vertex Shader** Its job is to take the vertex model coordinates and position stuff on the screen
+The vertex shader is called for every vertex in a model.
+and then the second part is a **Fragment shader** which is called for **each pixel** and the output of the fragment shader
+is in R.G.B.A (Red, Green, Blue, Alpha) format.
+
+The R.G.B.A has a value **between 0 and 1** for each channel a value for example of RGBA(1,1,1,1) would show a white pixel.
+while RGBA(1, 0, 0, 0.5) whould show a semi-translucent red on the screen.
+
+on a complex 3D screen something infront of another item would overwrite the pixel color calculated by another shader.
+Z'd Buffering takes care of this, The Z'd Buffer representing the distance from the camera calculated by a previous shader the renderer handles this for us. Only thing that we need to be concerned about is what our current shaders should do with the vertices of our model and how the pixels should be colored.
+
 
