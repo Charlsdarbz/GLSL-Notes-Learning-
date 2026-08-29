@@ -1,4 +1,4 @@
-# What le fuck does OpenGL do!
+# What the fuck does OpenGL do!
 
 OpenGL allows us to work with Triangles
 a Triangle is made up of 3 Points 😮! Which are called Vertices.
