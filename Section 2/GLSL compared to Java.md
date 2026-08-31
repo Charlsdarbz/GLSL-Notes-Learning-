@@ -1,5 +1,3 @@
-The name of the file is just the name of the lecture. I already know GLSL ain't javascript already but like jst incase gonna create this for any notes i need to take in this lecture
-
 I jst compared anytimes he said something being simalar to JS to jst be Simlar or not to Java instead of JS
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -53,6 +51,28 @@ if (condition) {
 ```
 
 
+A for loop
+
+// Java
+```Java
+
+final int count = 10;
+for (int i=0; i < count; i++) {
+    // Do some random ah shi
+} 
+
+```
+
+// GLSL
+```GLSL
+const int count = 10;
+for (let i=0; i<count; i++) {
+    // Also do some random ah shi
+}
+```
+
+
+
 also GLSL is strict about variables that contain a single value
 GLSL contains the **vec** class
 
@@ -90,17 +110,4 @@ bvec4 b3 = bvec4(true);
 
 
 ```
-
-
-(Idk why this is needed just yet but Ok!)
-# Javascript
-You can define variables in javascript with 3 keywords 
-- var, const, or let
-You can then assign a varible to some value
-this could be
-- var num1 = 1;
-- let num2 = 33.3;
-- const obj = { x:200, y:32 };
-- let str = "Darbz is Cool!";
-the variable can be any type...
 
