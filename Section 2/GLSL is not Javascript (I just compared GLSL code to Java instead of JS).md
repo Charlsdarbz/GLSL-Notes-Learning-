@@ -30,7 +30,7 @@ also GLSL is strict about variables that contain a single value
 GLSL contains the **vec** class
 
 # The vec class
-<img width="836" height="945" alt="image" src="https://github.com/user-attachments/assets/3b4f472a-fadf-4d3d-9503-8e6998c01cc4" />
+<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/3b4f472a-fadf-4d3d-9503-8e6998c01cc4" />
 
 The syntax for If statements are exactly the same in GLSL as they are in Java.
 
