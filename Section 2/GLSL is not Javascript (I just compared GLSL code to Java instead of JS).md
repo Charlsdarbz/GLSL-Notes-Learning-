@@ -65,7 +65,7 @@ GLSL contains the **vec** class
 vec2 v = vec2(0.5);
 // Now v.x = 0.5 and v.y = 0.5
 
-//you can access them via **v.x** and **v.y**
+//you can access them via v.x and v.y
 // then you can use all the arithmatic operators on the variable
 w = v * 2.0;
 
