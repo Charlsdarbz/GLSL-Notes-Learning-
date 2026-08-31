@@ -10,6 +10,12 @@ because they are being calculated at the same time
 <img width="1171" height="593" alt="image" src="https://github.com/user-attachments/assets/83e5f908-446d-4f26-bcbf-0ca63c9968ca" />
 
 
+# Image programming 
+Often when drawing images in code you will be in a programming loop that does know what is to the left and right
+and then you build up an image progressively working with the rows and columns of pixels. but not when working with
+shaders.
+With GLSL each vertex and pixel is independent of any other.
+
 
 # CPU
 - can handle large programs with huge memory requirements
