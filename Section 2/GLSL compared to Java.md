@@ -71,6 +71,29 @@ for (let i=0; i<count; i++) {
 }
 ```
 
+Functions (also called methods in java)
+
+// Java
+```Java
+boolean inRect(Vec2 point, Vec4 rect) {
+    boolean result = false;
+    // do some random ah calculations
+    return result;
+}
+```
+
+```GLSL
+//vv return type 
+bool inRect(vec2 point, vec4 rect) {
+    boolean result = false;
+    // calculate some random ah shit
+    return result;
+}
+```
+
+Function overloading
+In GLSL if a function has a diffrent return type or diffrent parrameters then its a diffrent function.
+Simalar to Java
 
 
 also GLSL is strict about variables that contain a single value
