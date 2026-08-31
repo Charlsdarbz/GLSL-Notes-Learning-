@@ -26,12 +26,6 @@ int myVar = int(12.0) * 3; // 36!
 GLSL is also strict about semi-colons (like java)
 so the compiler will complain if you miss one out...
 
-also GLSL is strict about variables that contain a single value
-GLSL contains the **vec** class
-
-# The vec class
-<img width="228" height="228" alt="image" src="https://github.com/user-attachments/assets/3b4f472a-fadf-4d3d-9503-8e6998c01cc4" />
-
 The syntax for If statements are exactly the same in GLSL as they are in Java.
 
 ```Java
@@ -57,6 +51,14 @@ if (condition) {
 }
 
 ```
+
+
+also GLSL is strict about variables that contain a single value
+GLSL contains the **vec** class
+
+# The vec class
+<img width="228" height="228" alt="image" src="https://github.com/user-attachments/assets/3b4f472a-fadf-4d3d-9503-8e6998c01cc4" />
+
 
 
 ```GLSL
